@@ -12,7 +12,7 @@ do
     git commit -m "bump"
     git push --set-upstream origin $branch_name
 
-    gh pr create
+    gh pr create -f
     
     git checkout main
     git branch -D $branch_name
