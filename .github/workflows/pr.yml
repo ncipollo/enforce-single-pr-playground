@@ -8,5 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Test
-      run: echo "hi there"
+    - name: Close Nick's PRs
+      uses: isaiahmoran/enforce-single-pr@v1
+      with:
+        username: ncipollo
+    - name: Close Isaiah's PRs
+      uses: isaiahmoran/enforce-single-pr@v1
+      with:
+        username: isaiahmoran
