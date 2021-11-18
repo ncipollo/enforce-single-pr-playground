@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for i in {0..1}
+for i in {0..3}
 do
     branch_name=`uuidgen`
     
