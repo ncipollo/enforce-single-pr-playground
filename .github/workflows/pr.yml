@@ -9,10 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Close Nick's PRs
-      uses: isaiahmoran/enforce-single-pr@v1
+      uses: isaiahmoran/enforce-single-pr@releases/v1
       with:
         username: ncipollo
     - name: Close Isaiah's PRs
-      uses: isaiahmoran/enforce-single-pr@v1
+      uses: isaiahmoran/enforce-single-pr@releases/v1
       with:
         username: isaiahmoran
